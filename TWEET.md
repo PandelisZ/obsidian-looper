@@ -4,7 +4,7 @@
 
 ## Single tweet (~280 chars)
 
-> obsidian-looper: a Claude Code skill that turns your Obsidian vault into a live AI orchestration brain. Drop work in Inbox.md, approve Plans with a chip-click, and a fleet of sub-Claudes executes — while you sleep. Open source. github.com/YOUR/obsidian-looper
+> obsidian-looper: a Claude Code skill that turns your Obsidian vault into a live AI orchestration brain. Drop work in Inbox.md, approve Plans with a chip-click, and a fleet of sub-Claudes executes — while you sleep. Open source. github.com/PandelisZ/obsidian-looper
 
 ---
 
@@ -43,4 +43,4 @@
 >
 > Install: git clone → ./install.sh your-repo → fill in project.config.js → /loop /obsidian-looper
 >
-> 👉 github.com/YOUR/obsidian-looper
+> 👉 github.com/PandelisZ/obsidian-looper
