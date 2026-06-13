@@ -1,0 +1,47 @@
+{
+  "name": "obsidian-looper",
+  "version": "0.1.0",
+  "description": "Orchestrate Claude at scale using Obsidian as the shared brain. Continuous /loop driven by Inbox.md, status-frontmatter review cycle, parallel sub-agent fleet.",
+  "author": "Pandelis Zembashis",
+  "license": "MIT",
+  "repository": "https://github.com/YOUR_USERNAME/obsidian-looper",
+  "skills": [
+    {
+      "name": "obsidian-looper",
+      "path": "skills/obsidian-looper/SKILL.md",
+      "user-invocable": true,
+      "description": "Orchestrate Claude at scale using Obsidian as the shared brain"
+    }
+  ],
+  "templates": [
+    {
+      "name": "swarm-find",
+      "path": "templates/swarm-find.js",
+      "description": "Multi-modal finder swarm across search angles"
+    },
+    {
+      "name": "fanout-review",
+      "path": "templates/fanout-review.js",
+      "description": "Adversarially-verified multi-dimension code review"
+    },
+    {
+      "name": "per-subsystem-migrate",
+      "path": "templates/per-subsystem-migrate.js",
+      "description": "Apply a change across subsystems in parallel, each worktree-isolated and verified"
+    },
+    {
+      "name": "inbox-drain",
+      "path": "templates/inbox-drain.js",
+      "description": "Drain the Obsidian Inbox — scout, classify, and draft RFCs/Plans"
+    }
+  ],
+  "requires": {
+    "claude-code": ">=1.0.0",
+    "mcp": ["mcp-obsidian"]
+  },
+  "setup": {
+    "config": "project.config.example.js",
+    "install": "install.sh",
+    "obsidian": "obsidian-setup/README.md"
+  }
+}
