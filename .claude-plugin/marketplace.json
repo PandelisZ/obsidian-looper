@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "obsidian-looper",
+  "description": "obsidian-looper: orchestrate Claude at scale with Obsidian as the shared brain.",
+  "owner": {
+    "name": "Pandelis Zembashis",
+    "email": "p@ndel.is"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-looper",
+      "description": "Orchestrate Claude at scale using Obsidian as the shared brain. Continuous /loop driven by Inbox.md, status-frontmatter review cycle, parallel sub-agent fleet.",
+      "author": {
+        "name": "Pandelis Zembashis",
+        "email": "p@ndel.is"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PandelisZ/obsidian-looper.git"
+      },
+      "homepage": "https://github.com/PandelisZ/obsidian-looper"
+    }
+  ]
+}

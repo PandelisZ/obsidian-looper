@@ -8,6 +8,42 @@ obsidian-looper is a Claude Code skill that turns your Obsidian vault into a liv
 
 ---
 
+## Install as a Claude Code plugin
+
+The recommended way to install obsidian-looper is as a **Claude Code plugin** — no cloning or copying required.
+
+### 1. Add this repo as a marketplace
+
+```bash
+claude plugin marketplace add PandelisZ/obsidian-looper
+```
+
+This registers the repo as a local plugin marketplace (stored in your user config).
+
+### 2. Install the plugin
+
+```bash
+claude plugin install obsidian-looper@obsidian-looper
+```
+
+Claude Code fetches the plugin, validates it, and makes the `obsidian-looper` skill available in every session. Restart Claude Code (or run `/reload-plugins`) to activate it.
+
+### 3. Configure your project
+
+After installation, follow the [Quickstart](#quickstart) from step 3 (Configure) onward — wire up `project.config.js` and set up Obsidian.
+
+### Alternative: manual install via install.sh
+
+If you prefer to copy the skill directly into your project (e.g. to pin a specific version or modify it):
+
+```bash
+git clone https://github.com/PandelisZ/obsidian-looper ~/tools/obsidian-looper
+cd ~/tools/obsidian-looper
+./install.sh /path/to/your-project
+```
+
+---
+
 ## The idea
 
 Most "agentic" workflows still require you to babysit Claude turn-by-turn. obsidian-looper flips this: Claude runs a **continuous loop** against your Obsidian vault, and *you* steer by editing notes.
@@ -93,7 +129,7 @@ The orchestrator is a **conductor, not a player**. If it catches itself reading 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/obsidian-looper ~/tools/obsidian-looper
+git clone https://github.com/PandelisZ/obsidian-looper ~/tools/obsidian-looper
 ```
 
 ### 2. Install into your project

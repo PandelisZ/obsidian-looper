@@ -31,8 +31,8 @@ echo "Installing obsidian-looper into $TARGET ..."
 # We copy (not symlink) for portability. To stay in sync with upstream,
 # re-run this script after pulling obsidian-looper updates.
 
-cp "$SCRIPT_DIR/skills/obsidian-looper/SKILL.md" "$AGENTS_SKILL/SKILL.md"
-cp "$SCRIPT_DIR/skills/obsidian-looper/SKILL.md" "$CLAUDE_SKILL/SKILL.md"
+cp "$SCRIPT_DIR/SKILL.md" "$AGENTS_SKILL/SKILL.md"
+cp "$SCRIPT_DIR/SKILL.md" "$CLAUDE_SKILL/SKILL.md"
 
 for tmpl in "$SCRIPT_DIR/templates/"*.js; do
   filename="$(basename "$tmpl")"
